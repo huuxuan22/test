@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Tên và MSV -->
+        <TextView
+            android:id="@+id/tv_name_msv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên: Trần Dương Hữu Xuân  - MSV: 22115053122252"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Hiển thị tin nhắn -->
+        <TextView
+            android:id="@+id/tv_messages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tin nhắn sẽ hiển thị tại đây"
+            android:textSize="16sp"
+            android:paddingTop="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
